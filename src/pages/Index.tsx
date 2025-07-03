@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Search, Plus, Filter, MapPin, Calendar, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -83,7 +82,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-blue-900">ChemMarket</h1>
+              <h1 className="text-2xl font-bold text-blue-900">Ben Chemical</h1>
               <Badge variant="secondary" className="ml-2">B2B</Badge>
             </div>
             <div className="flex items-center space-x-4">
@@ -215,7 +214,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">ChemMarket</h3>
+              <h3 className="text-lg font-semibold mb-4">Ben Chemical</h3>
               <p className="text-gray-400 text-sm">
                 The leading B2B marketplace for chemical trading and procurement.
               </p>
@@ -249,7 +248,8 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2024 ChemMarket. All rights reserved. Licensed chemical marketplace.</p>
+            <p>&copy; 2024 Ben Chemical. All rights reserved. Licensed chemical marketplace.</p>
+            <p className="mt-2">Developed by Beniam</p>
           </div>
         </div>
       </footer>
