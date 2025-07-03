@@ -16,7 +16,7 @@ const Index = () => {
       name: "Sodium Chloride (NaCl)",
       purity: "99.5%",
       quantity: "1000 kg",
-      price: "$0.25/kg",
+      price: "12.50 ETB/kg",
       supplier: "ChemCorp Industries",
       location: "Houston, TX",
       category: "Inorganic Salt",
@@ -29,7 +29,7 @@ const Index = () => {
       name: "Sulfuric Acid (H2SO4)",
       purity: "98%",
       quantity: "500 L",
-      price: "$0.45/L",
+      price: "22.50 ETB/L",
       supplier: "Industrial Chemicals Ltd",
       location: "Chicago, IL",
       category: "Acid",
@@ -42,7 +42,7 @@ const Index = () => {
       name: "Acetone (C3H6O)",
       purity: "99.9%",
       quantity: "200 L",
-      price: "$1.20/L",
+      price: "60.00 ETB/L",
       supplier: "Solvent Solutions Inc",
       location: "Newark, NJ",
       category: "Solvent",
@@ -55,7 +55,7 @@ const Index = () => {
       name: "Calcium Carbonate (CaCO3)",
       purity: "99%",
       quantity: "2000 kg",
-      price: "$0.15/kg",
+      price: "7.50 ETB/kg",
       supplier: "Mineral Resources Co",
       location: "Phoenix, AZ",
       category: "Carbonate",
@@ -148,7 +148,7 @@ const Index = () => {
                     </CardDescription>
                   </div>
                   <Badge variant={chemical.inStock ? "default" : "secondary"}>
-                    {chemical.inStock ? "In Stock" : "Out of Stock"}
+                    {chemical.inStock ? "Out of Stock" : "In Stock"}
                   </Badge>
                 </div>
               </CardHeader>
